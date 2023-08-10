@@ -1,0 +1,491 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
+
+Gemspec/DateAssignment: # (new in 1.10)
+  Enabled: true
+
+Layout/LineEndStringConcatenationIndentation: # (new in 1.18)
+  Enabled: true
+
+Layout/SpaceBeforeBrackets: # (new in 1.7)
+  Enabled: true
+
+Lint/AmbiguousAssignment: # (new in 1.7)
+  Enabled: true
+
+Lint/DeprecatedConstants: # (new in 1.8)
+  Enabled: true
+
+Lint/DuplicateBranch: # (new in 1.3)
+  Enabled: true
+
+Lint/DuplicateRegexpCharacterClassElement: # (new in 1.1)
+  Enabled: true
+
+Lint/EmptyBlock: # (new in 1.1)
+  Enabled: true
+
+Lint/EmptyClass: # (new in 1.3)
+  Enabled: true
+
+Lint/EmptyInPattern: # (new in 1.16)
+  Enabled: true
+
+Lint/LambdaWithoutLiteralBlock: # (new in 1.8)
+  Enabled: true
+
+Lint/NoReturnInBeginEndBlocks: # (new in 1.2)
+  Enabled: true
+
+Lint/NumberedParameterAssignment: # (new in 1.9)
+  Enabled: true
+
+Lint/OrAssignmentToConstant: # (new in 1.9)
+  Enabled: true
+
+Lint/RedundantDirGlobSort: # (new in 1.8)
+  Enabled: true
+
+Lint/SymbolConversion: # (new in 1.9)
+  Enabled: true
+
+Lint/ToEnumArguments: # (new in 1.1)
+  Enabled: true
+
+Lint/TripleQuotes: # (new in 1.9)
+  Enabled: true
+
+Lint/UnexpectedBlockArity: # (new in 1.5)
+  Enabled: true
+
+Lint/UnmodifiedReduceAccumulator: # (new in 1.1)
+  Enabled: true
+
+Naming/InclusiveLanguage: # (new in 1.18)
+  Enabled: true
+
+Style/ArgumentsForwarding: # (new in 1.1)
+  Enabled: true
+
+Style/CollectionCompact: # (new in 1.2)
+  Enabled: true
+
+Style/DocumentDynamicEvalDefinition: # (new in 1.1)
+  Enabled: true
+
+Style/EndlessMethod: # (new in 1.8)
+  Enabled: true
+
+Style/HashConversion: # (new in 1.10)
+  Enabled: true
+
+Style/HashExcept: # (new in 1.7)
+  Enabled: true
+
+Style/IfWithBooleanLiteralBranches: # (new in 1.9)
+  Enabled: true
+
+Style/InPatternThen: # (new in 1.16)
+  Enabled: true
+
+Style/MultilineInPatternThen: # (new in 1.16)
+  Enabled: true
+
+Style/NegatedIfElseCondition: # (new in 1.2)
+  Enabled: true
+
+Style/NilLambda: # (new in 1.3)
+  Enabled: true
+
+Style/QuotedSymbols: # (new in 1.16)
+  Enabled: true
+
+Style/RedundantArgument: # (new in 1.4)
+  Enabled: true
+
+Style/StringChars: # (new in 1.12)
+  Enabled: true
+
+Style/SwapValues: # (new in 1.1)
+  Enabled: true
+
+Performance/BlockGivenWithExplicitBlock: # (new in 1.9)
+  Enabled: true
+
+Performance/CollectionLiteralInLoop: # (new in 1.8)
+  Enabled: true
+
+Performance/ConstantRegexp: # (new in 1.9)
+  Enabled: true
+
+Performance/MethodObjectAsBlock: # (new in 1.9)
+  Enabled: true
+
+Performance/RedundantEqualityComparisonBlock: # (new in 1.10)
+  Enabled: true
+
+Performance/RedundantSplitRegexpArgument: # (new in 1.10)
+  Enabled: true
+
+Performance/AncestorsInclude: # (new in 1.7)
+  Enabled: true
+
+Performance/BigDecimalWithNumericArgument: # (new in 1.7)
+  Enabled: true
+
+Performance/RedundantSortBlock: # (new in 1.7)
+  Enabled: true
+
+Performance/RedundantStringChars: # (new in 1.7)
+  Enabled: true
+
+Performance/ReverseFirst: # (new in 1.7)
+  Enabled: true
+
+Performance/SortReverse: # (new in 1.7)
+  Enabled: true
+
+Performance/Squeeze: # (new in 1.7)
+  Enabled: true
+
+Performance/StringInclude: # (new in 1.7)
+  Enabled: true
+
+Performance/Sum: # (new in 1.8)
+  Enabled: true
+
+Rails/ActiveRecordCallbacksOrder: # (new in 2.7)
+  Enabled: true
+
+Rails/AfterCommitOverride: # (new in 2.8)
+  Enabled: true
+
+Rails/AttributeDefaultBlockValue: # (new in 2.9)
+  Enabled: true
+
+Rails/FindById: # (new in 2.7)
+  Enabled: true
+
+Rails/Inquiry: # (new in 2.7)
+  Enabled: true
+
+Rails/MailerName: # (new in 2.7)
+  Enabled: true
+
+Rails/MatchRoute: # (new in 2.7)
+  Enabled: true
+
+Rails/NegateInclude: # (new in 2.7)
+  Enabled: true
+
+Rails/Pluck: # (new in 2.7)
+  Enabled: true
+
+Rails/PluckInWhere: # (new in 2.7)
+  Enabled: true
+
+Rails/RenderInline: # (new in 2.7)
+  Enabled: true
+
+Rails/RenderPlainText: # (new in 2.7)
+  Enabled: true
+
+Rails/ShortI18n: # (new in 2.7)
+  Enabled: true
+
+Rails/SquishedSQLHeredocs: # (new in 2.8)
+  Enabled: true
+
+Rails/WhereEquals: # (new in 2.9)
+  Enabled: true
+
+Rails/WhereExists: # (new in 2.7)
+  Enabled: true
+
+Rails/WhereNot: # (new in 2.8)
+  Enabled: true
+
+Layout/BeginEndAlignment: # (new in 0.91)
+  Enabled: true
+
+Lint/ConstantDefinitionInBlock: # (new in 0.91)
+  Enabled: true
+
+Lint/DuplicateRequire: # (new in 0.90)
+  Enabled: true
+
+Lint/EmptyFile: # (new in 0.90)
+  Enabled: true
+
+Lint/HashCompareByIdentity: # (new in 0.93)
+  Enabled: true
+
+Lint/IdentityComparison: # (new in 0.91)
+  Enabled: true
+
+Lint/RedundantSafeNavigation: # (new in 0.93)
+  Enabled: true
+
+Lint/TrailingCommaInAttributeDeclaration: # (new in 0.90)
+  Enabled: true
+
+Lint/UselessMethodDefinition: # (new in 0.90)
+  Enabled: true
+
+Lint/UselessTimes: # (new in 0.91)
+  Enabled: true
+
+Style/ClassEqualityComparison: # (new in 0.93)
+  Enabled: true
+
+Style/CombinableLoops: # (new in 0.90)
+  Enabled: true
+
+Style/KeywordParametersOrder: # (new in 0.90)
+  Enabled: true
+
+Style/RedundantSelfAssignment: # (new in 0.90)
+  Enabled: true
+
+Style/SoleNestedConditional: # (new in 0.89)
+  Enabled: true
+
+Style/AccessorGrouping:
+  Enabled: true
+
+Style/FormatStringToken:
+  Enabled: true
+
+Style/ExplicitBlockArgument:
+  Enabled: true
+
+Style/GlobalStdStream:
+  Enabled: true
+
+Style/OptionalBooleanParameter:
+  Enabled: true
+
+Style/SingleArgumentDig:
+  Enabled: true
+
+Style/StringConcatenation:
+  Enabled: true
+
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: true
+
+Lint/FloatComparison:
+  Enabled: true
+
+Lint/SelfAssignment:
+  Enabled: true
+
+Lint/MissingSuper:
+  Enabled: true
+
+Style/ArrayCoercion:
+  Enabled: true
+
+Style/BisectedAttrAccessor:
+  Enabled: true
+
+Style/CaseLikeIf:
+  Enabled: true
+
+Style/HashAsLastArrayItem:
+  Enabled: true
+
+Style/HashLikeCase:
+  Enabled: true
+
+Style/RedundantAssignment:
+  Enabled: true
+
+Style/RedundantFetchBlock:
+  Enabled: true
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: true
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/DuplicateElsifCondition:
+  Enabled: true
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
+
+Style/SlicingWithRange:
+  Enabled: true
+
+Lint/DuplicateRescueException:
+  Enabled: true
+
+Lint/EmptyConditionalBody:
+  Enabled: true
+
+Lint/OutOfRangeRegexpRef:
+  Enabled: true
+
+Lint/TopLevelReturnWithArgument:
+  Enabled: true
+
+Lint/UnreachableLoop:
+  Enabled: true
+
+Metrics/ClassLength:
+  Max: 220
+
+# Offense count: 191
+Metrics/AbcSize:
+  Max: 33
+
+# Offense count: 734
+# Configuration parameters: CountComments, ExcludedMethods.
+# ExcludedMethods: refine
+Metrics/BlockLength:
+  Max: 970
+
+# Offense count: 5
+# Configuration parameters: CountBlocks.
+Metrics/BlockNesting:
+  Max: 7
+
+# Offense count: 46
+Metrics/CyclomaticComplexity:
+  Max: 18
+
+# Offense count: 194
+# Configuration parameters: CountComments, ExcludedMethods.
+Metrics/MethodLength:
+  Max: 64
+
+# Offense count: 6
+# Configuration parameters: CountComments.
+Metrics/ModuleLength:
+  Max: 265
+
+# Offense count: 1
+# Configuration parameters: CountKeywordArgs.
+Metrics/ParameterLists:
+  Max: 6
+
+# Offense count: 37
+Metrics/PerceivedComplexity:
+  Max: 27
+
+Gemspec/DeprecatedAttributeAssignment: # new in 1.30
+  Enabled: true
+
+Gemspec/RequireMFA: # new in 1.23
+  Enabled: true
+
+Lint/AmbiguousOperatorPrecedence: # new in 1.21
+  Enabled: true
+
+Lint/AmbiguousRange: # new in 1.19
+  Enabled: true
+
+Lint/IncompatibleIoSelectWithFiberScheduler: # new in 1.21
+  Enabled: true
+
+Lint/RefinementImportMethods: # new in 1.27
+  Enabled: true
+
+Lint/RequireRelativeSelfPath: # new in 1.22
+  Enabled: true
+
+Lint/UselessRuby2Keywords: # new in 1.23
+  Enabled: true
+
+Naming/BlockForwarding: # new in 1.24
+  Enabled: true
+
+Security/CompoundHash: # new in 1.28
+  Enabled: true
+
+Security/IoMethods: # new in 1.22
+  Enabled: true
+
+Style/EnvHome: # new in 1.29
+  Enabled: true
+
+Style/FetchEnvVar: # new in 1.28
+  Enabled: true
+
+Style/FileRead: # new in 1.24
+  Enabled: true
+
+Style/FileWrite: # new in 1.24
+  Enabled: true
+
+Style/MapCompactWithConditionalBlock: # new in 1.30
+  Enabled: true
+
+Style/MapToHash: # new in 1.24
+  Enabled: true
+
+Style/NestedFileDirname: # new in 1.26
+  Enabled: true
+
+Style/NumberedParameters: # new in 1.22
+  Enabled: true
+
+Style/NumberedParametersLimit: # new in 1.22
+  Enabled: true
+
+Style/ObjectThen: # new in 1.28
+  Enabled: true
+
+Style/OpenStructUse: # new in 1.23
+  Enabled: true
+
+Style/RedundantInitialize: # new in 1.27
+  Enabled: true
+
+Style/RedundantSelfAssignmentBranch: # new in 1.19
+  Enabled: true
+
+Style/SelectByRegexp: # new in 1.22
+  Enabled: true

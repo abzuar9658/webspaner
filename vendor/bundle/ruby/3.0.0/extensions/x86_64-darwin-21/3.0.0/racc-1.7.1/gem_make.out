@@ -1,0 +1,20 @@
+current directory: /Users/dev/Downloads/test-project/vendor/bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+/Users/dev/.rvm/rubies/ruby-3.0.5/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/dev/Downloads/test-project/vendor/bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230810-91238-8tfh9s sitelibdir\=./.gem.20230810-91238-8tfh9s clean
+
+current directory: /Users/dev/Downloads/test-project/vendor/bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230810-91238-8tfh9s sitelibdir\=./.gem.20230810-91238-8tfh9s
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/dev/Downloads/test-project/vendor/bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230810-91238-8tfh9s sitelibdir\=./.gem.20230810-91238-8tfh9s install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20230810-91238-8tfh9s/racc
+
+current directory: /Users/dev/Downloads/test-project/vendor/bundle/ruby/3.0.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230810-91238-8tfh9s sitelibdir\=./.gem.20230810-91238-8tfh9s clean
